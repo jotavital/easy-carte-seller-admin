@@ -15,6 +15,10 @@
 /node_modules
 /public/build
 /public/hot
+/public/css/filament
+/public/js/filament
+/public/filament
+/public/fonts/filament
 /public/storage
 /storage/*.key
 /storage/pail
@@ -22,3 +26,10 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.yarn/cache

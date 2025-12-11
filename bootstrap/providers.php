@@ -1,6 +1,9 @@
 <?php
 
+use App\Providers\AppServiceProvider;
+use App\Providers\Filament\SellerAdminPanelProvider;
+
 return [
-    App\Providers\AppServiceProvider::class,
-    App\Providers\Filament\SellerAdminPanelProvider::class,
+    AppServiceProvider::class,
+    SellerAdminPanelProvider::class,
 ];

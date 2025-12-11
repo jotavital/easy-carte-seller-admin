@@ -4,5 +4,5 @@ namespace App\Filament\Pages;
 
 class Dashboard extends \Filament\Pages\Dashboard
 {
-    protected static ?string $activeNavigationIcon = 'heroicon-s-home';
+    protected static string | \BackedEnum | null $activeNavigationIcon = 'heroicon-s-home';
 }
